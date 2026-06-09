@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Delete Account | My Bookshelf</title>
-  <meta name="description" content="Request deletion of your My Bookshelf account and associated data." />
+  <meta
+    name="description"
+    content="Delete your My Bookshelf account and associated cloud data."
+  />
 
   <style>
     :root {
@@ -55,7 +59,8 @@
       font-size: 1.25rem;
     }
 
-    p {
+    p,
+    li {
       color: var(--muted);
     }
 
@@ -99,61 +104,118 @@
       <h1>Delete your My Bookshelf account</h1>
 
       <p>
-        This page explains how to request deletion of your My Bookshelf account
-        and associated app data.
+        This page explains how to permanently delete your My Bookshelf account
+        and the cloud data associated with it.
       </p>
 
-      <h2>How to request account deletion</h2>
+      <h2>Delete your account in the app</h2>
 
       <p>
-        To request deletion of your My Bookshelf account, email us using the
-        address below:
+        You can permanently delete your account directly in My Bookshelf by opening:
+        <strong>Settings &gt; Account &gt; Delete account</strong>.
       </p>
 
       <p>
-        <a class="button" href="mailto:80ezstudio@gmail.com?subject=Delete%20My%20Bookshelf%20account">
+        You may be asked to reauthenticate using your password or Google account.
+        Successful in-app deletion is normally completed immediately.
+      </p>
+
+      <h2>If you cannot access the app</h2>
+
+      <p>
+        If you cannot access the app, you can request account deletion by emailing us:
+      </p>
+
+      <p>
+        <a
+          class="button"
+          href="mailto:80ezstudio@gmail.com?subject=My%20Bookshelf%20account%20deletion%20request"
+        >
           Request account deletion
         </a>
       </p>
 
       <p>
         Please send the request from the email address linked to your My Bookshelf
-        account, or include the account email address in your message.
+        account where possible. If that is not possible, include the account email
+        address in your message so we can verify the request.
       </p>
 
       <h2>What data will be deleted</h2>
 
       <p>
-        When you request deletion, we will delete your My Bookshelf account and
-        associated app data linked to that account, including reading records,
-        saved book progress, notes, quotes and ratings where this data is stored
-        with your account.
+        When deletion succeeds, we permanently delete your My Bookshelf Firebase
+        Authentication account and the cloud-backed data associated with that account.
+      </p>
+
+      <p>This may include:</p>
+
+      <ul>
+        <li>Cloud-backed books</li>
+        <li>Notes and saved quotes</li>
+        <li>Ratings</li>
+        <li>Reading progress</li>
+        <li>Reading statuses</li>
+        <li>Related book metadata stored with your account</li>
+      </ul>
+
+      <p>
+        Data stored locally on the device under your signed-in account is also removed
+        by the app after successful account deletion.
+      </p>
+
+      <h2>Local-only data</h2>
+
+      <p>
+        Books and notes saved in local-only mode are stored only on your device and
+        are not associated with your cloud account. Account deletion does not delete
+        this local-only data.
+      </p>
+
+      <p>
+        You can remove local-only data by deleting it inside the app, clearing the
+        app's storage in your device settings, or uninstalling the app. Android or
+        device backup systems may retain backups according to your device and account
+        settings.
       </p>
 
       <h2>What data may be retained</h2>
 
       <p>
-        We may retain limited information only where required for legal, security,
-        fraud-prevention, or operational reasons. Any retained information will
-        be kept only for as long as necessary.
+        We may retain limited technical or legal records where required for security,
+        fraud prevention, legal compliance, or operational reasons. Firebase and
+        Google may also retain limited records under their own policies.
+      </p>
+
+      <p>
+        Any retained information will be kept only for as long as reasonably necessary
+        for those purposes.
       </p>
 
       <h2>Processing time</h2>
 
       <p>
-        We aim to process account deletion requests within 30 days.
+        Successful in-app deletion is normally completed immediately.
+        Support-assisted deletion requests are normally processed within 30 days
+        after we verify the request.
       </p>
+
+      <div class="note">
+        <strong>Account deletion is permanent and cannot be undone.</strong>
+      </div>
 
       <div class="note">
         Developer: 80EZ Studio<br />
         App: My Bookshelf<br />
-        Contact: <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>
+        Contact:
+        <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>
       </div>
     </section>
 
     <footer>
-      © 80EZ Studio. My Bookshelf account deletion request page.
+      © 80EZ Studio. My Bookshelf account deletion page.
     </footer>
   </main>
 </body>
 </html>
+```

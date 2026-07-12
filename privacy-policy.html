@@ -1,566 +1,108 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>My Bookshelf Privacy Policy</title>
-
-  <meta
-    name="description"
-    content="Privacy Policy for the My Bookshelf reading tracker app by 80EZ Studio."
-  >
+  <meta name="description" content="Privacy Policy for the My Bookshelf reading tracker app by 80EZ Studio.">
+  <style>
+body{font-family:Arial,sans-serif;line-height:1.65;color:#1f2933;margin:0;background:#fffdf8}
+main{max-width:900px;margin:0 auto;padding:32px 24px 64px}
+h1,h2{color:#17212b}h1{font-size:2rem;margin:0 0 .6rem}h2{font-size:1.22rem;margin-top:2rem}
+p{margin:.75rem 0}.meta{background:#f5f1e8;border:1px solid #ded7c9;border-radius:8px;padding:14px 16px;margin:1rem 0 1.5rem}
+.meta p{margin:.25rem 0}a{color:#0f6b78;overflow-wrap:anywhere}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #d8dee4;font-size:.9rem;color:#52606d}
+</style>
 </head>
-
-<body style="font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; line-height: 1.6; padding: 0 20px;">
-
+<body>
+<main>
   <h1>My Bookshelf Privacy Policy</h1>
-
-  <p><strong>Last updated: 9 June 2026</strong></p>
-
-  <p>
-    This Privacy Policy explains how 80EZ Studio handles information when you use My Bookshelf.
-  </p>
-
-  <p>
-    My Bookshelf is a personal reading tracker app. It is designed to help you save books, track reading progress,
-    manage notes and quotes, organise your personal bookshelf, and, where available, use account, login, sync,
-    backup, paid, subscription, affiliate, or book discovery features.
-  </p>
-
-  <h2>Who We Are</h2>
-
-  <p>
-    My Bookshelf is developed and published by 80EZ Studio.
-  </p>
-
-  <p>
-    Contact email:
-    <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>
-  </p>
-
-  <h2>Information We Collect</h2>
-
-  <p>
-    My Bookshelf may collect, store, or process information you provide or create in the app so that the app can
-    operate and provide its features.
-  </p>
-
-  <p>This may include:</p>
-
-  <ul>
-    <li>Books you add to your bookshelf</li>
-    <li>Book titles, authors, page counts, cover information, descriptions, ISBNs, and related book details</li>
-    <li>Reading status, reading progress, ratings, reading dates, favourites, and reading history</li>
-    <li>Notes, quotes, and other reading-related text you choose to save</li>
-    <li>Profile preferences, such as display name, reading bio, and selected preset avatar</li>
-    <li>App settings and preferences</li>
-    <li>Account-related information, such as email address, user ID, login provider, authentication status, and account settings</li>
-    <li>Cloud backup and restore information associated with your signed-in account</li>
-    <li>Purchase or entitlement information, where paid features are available, such as whether your account or device has access to a paid feature, subscription, trial, or paid entitlement</li>
-    <li>Technical information needed to operate, secure, diagnose, and improve the app, such as app version, device information, crash or error information, and service logs where these features are enabled</li>
-    <li>Affiliate link interaction information, only if link tracking or analytics are enabled, such as whether an affiliate link was tapped</li>
-  </ul>
-
-  <h2>Account, Login, and Firebase Services</h2>
-
-  <p>
-    My Bookshelf uses Firebase services provided by Google to support account creation, email and password login,
-    Google Sign-In, password reset, reauthentication, account security, cloud backup, cloud restore, and account deletion.
-  </p>
-
-  <p>
-    Firebase Authentication is used to create and manage accounts and verify signed-in users.
-  </p>
-
-  <p>
-    Firebase Firestore is used to store cloud-backed library data for signed-in users who choose to use cloud backup
-    or restore.
-  </p>
-
-  <p>
-    Firebase Cloud Functions are used to support secure account deletion and related server-side operations.
-  </p>
-
-  <p>
-    If you create or use an account, Firebase or related service providers may process account and technical information
-    needed to provide the service. This may include your email address, user identifier, authentication provider,
-    authentication tokens, device or app information, and technical logs.
-  </p>
-
-  <p>
-    Firebase and Google services are provided by Google and may process information in accordance with their own privacy
-    and security practices. We use these services to operate My Bookshelf features, manage accounts, maintain security,
-    provide cloud backup and restore, and support app functionality.
-  </p>
-
-  <h2>Local-Only Mode</h2>
-
-  <p>
-    My Bookshelf can be used in local-only mode without creating or signing into an account.
-  </p>
-
-  <p>
-    In local-only mode, your books, notes, quotes, ratings, reading progress, reading status, preferences, and other
-    reading information are stored on your device.
-  </p>
-
-  <p>
-    Local-only data is not uploaded to your My Bookshelf cloud account and is not associated with a Firebase user account.
-  </p>
-
-  <p>
-    80EZ Studio cannot remotely access or delete information that exists only on your device.
-  </p>
-
-  <p>
-    You can remove local-only data by deleting it inside the app, clearing the app's storage through your device settings,
-    or uninstalling the app. Android, Google, or device backup systems may retain backups according to your device and
-    account backup settings.
-  </p>
-
-  <h2>Local and Cloud Storage</h2>
-
-  <p>
-    Some My Bookshelf data is stored locally on your device. This may include your books, reading progress,
-    notes, quotes, preferences, ratings, and other app information.
-  </p>
-
-  <p>
-    If you sign in and use cloud backup or restore, account library information may also be uploaded to and restored
-    from Firebase Firestore.
-  </p>
-
-  <p>Cloud-backed information may include:</p>
-
-  <ul>
-    <li>Books associated with your signed-in account</li>
-    <li>Book titles, authors, identifiers, covers, descriptions, and related book metadata</li>
-    <li>Reading progress and reading status</li>
-    <li>Ratings and favourites</li>
-    <li>Notes and saved quotes</li>
-    <li>Reading dates and synchronisation information</li>
-  </ul>
-
-  <p>
-    Cloud-backed information is associated with the user identifier for your signed-in Firebase account.
-  </p>
-
-  <p>
-    Cloud backup and restore are optional because My Bookshelf can also be used in local-only mode.
-  </p>
-
-  <p>
-    This means that not all app data is stored only on your device once account, cloud, sync, backup, or paid features
-    are enabled.
-  </p>
-
-  <h2 id="account-deletion">Account and Data Deletion</h2>
-
-  <p>
-    If you create a My Bookshelf account, you can permanently delete it directly inside the app by opening:
-    <strong>Settings &gt; Account &gt; Delete account</strong>.
-  </p>
-
-  <p>
-    You may need to reauthenticate using your password or Google account before deletion can continue.
-  </p>
-
-  <p>
-    When account deletion succeeds, My Bookshelf deletes:
-  </p>
-
-  <ul>
-    <li>Your Firebase Authentication account</li>
-    <li>Your cloud-backed books</li>
-    <li>Your cloud-backed notes and saved quotes</li>
-    <li>Your ratings and favourites</li>
-    <li>Your reading progress</li>
-    <li>Your reading statuses</li>
-    <li>Related book metadata stored with your cloud account</li>
-    <li>Local app data on that device that belongs to the signed-in account</li>
-  </ul>
-
-  <p>
-    Books, notes, and other reading information stored only in local-only mode are not associated with your cloud
-    account and are not deleted when you delete an account.
-  </p>
-
-  <p>
-    Successful in-app deletion is normally completed immediately.
-  </p>
-
-  <p>
-    Account deletion is permanent and cannot be undone.
-  </p>
-
-  <p>
-    If you cannot access the app, you can request deletion of your My Bookshelf account and associated account data
-    using this page:
-  </p>
-
-  <p>
-    <a href="https://80ezstudio.github.io/MyBookshelf/delete-account/">
-      https://80ezstudio.github.io/MyBookshelf/delete-account/
-    </a>
-  </p>
-
-  <p>
-    Support-assisted deletion requests are normally processed within 30 days after the request has been verified.
-  </p>
-
-  <p>
-    Firebase, Google, or other service providers may retain limited technical, security, fraud-prevention, operational,
-    or legal records under their own retention policies or where required by law.
-  </p>
-
-  <h2>Book Search and Book Information</h2>
-
-  <p>
-    My Bookshelf may use external book information sources to help search for books and display book details such as
-    title, author, description, cover image, page count, and identifiers such as ISBN.
-  </p>
-
-  <p>
-    These services may include Google Books and Open Library.
-  </p>
-
-  <p>
-    When you search for a book, the search terms, author, keyword, ISBN, or related search information you enter may be
-    sent to the relevant book information service so search results can be returned.
-  </p>
-
-  <p>
-    These services are not controlled by 80EZ Studio and may process data according to their own privacy policies.
-  </p>
-
-  <p>
-    My Bookshelf does not sell your saved reading notes, personal bookshelf, ratings, or reading progress.
-  </p>
-
-  <h2>Affiliate Links</h2>
-
-  <p>
-    My Bookshelf may include links to third-party websites or services, including Amazon book pages.
-  </p>
-
-  <p>
-    Some links may be affiliate links. This means that if you tap a link and make a qualifying purchase, 80EZ Studio
-    may earn a commission at no extra cost to you.
-  </p>
-
-  <p>
-    As an Amazon Associate I earn from qualifying purchases.
-  </p>
-
-  <p>
-    When you tap an affiliate link, you may leave My Bookshelf and visit a third-party website, app, or service,
-    such as Amazon. We do not control those third-party websites or services, and their own privacy policies, terms,
-    payment processes, delivery processes, returns policies, and data practices will apply.
-  </p>
-
-  <p>
-    My Bookshelf does not collect your Amazon payment details, card details, delivery address, Amazon account password,
-    or Amazon purchase history. Any purchase, payment, delivery, return, refund, or account activity on Amazon is
-    handled by Amazon.
-  </p>
-
-  <p>
-    We may record that an affiliate link was tapped only if analytics or link tracking are enabled in the app. If this
-    is enabled, the information may be used to understand which links are used, improve book discovery features, and
-    support app functionality.
-  </p>
-
-  <h2>Paid Features, Purchases, and Subscriptions</h2>
-
-  <p>
-    My Bookshelf may offer paid features, subscriptions, one-time purchases, paid access, trials, or other paid
-    products now or in the future.
-  </p>
-
-  <p>
-    Payments and purchase management may be handled by Google Play or another authorised payment provider. We do not
-    directly receive or store your full payment card details.
-  </p>
-
-  <p>
-    We may receive or process information needed to confirm, unlock, manage, or restore paid access. This may include
-    purchase status, subscription status, entitlement status, product identifiers, transaction identifiers, account
-    identifiers, and related technical information.
-  </p>
-
-  <p>
-    Paid features, prices, subscription options, included features, trial availability, billing periods, and access
-    rules may change over time, subject to applicable law and app store rules.
-  </p>
-
-  <h2>How We Use Information</h2>
-
-  <p>We may use information to:</p>
-
-  <ul>
-    <li>Provide, operate, and maintain My Bookshelf</li>
-    <li>Save and display your personal bookshelf</li>
-    <li>Track your reading progress</li>
-    <li>Save notes, quotes, ratings, preferences, and reading information</li>
-    <li>Provide book search and book discovery features</li>
-    <li>Open third-party book pages or affiliate links when you choose to tap them</li>
-    <li>Provide account login, authentication, account management, and security features</li>
-    <li>Provide cloud backup, sync, and restore features</li>
-    <li>Process account and cloud-data deletion</li>
-    <li>Provide, manage, restore, or verify paid features, subscriptions, trials, or paid access</li>
-    <li>Respond to support requests</li>
-    <li>Diagnose technical issues, crashes, errors, and performance problems</li>
-    <li>Prevent misuse, fraud, abuse, or security issues</li>
-    <li>Comply with legal obligations and enforce our terms</li>
-    <li>Improve the app and develop new features</li>
-  </ul>
-
-  <h2>Permissions</h2>
-
-  <p>
-    My Bookshelf may request permissions such as camera access for features like barcode scanning.
-  </p>
-
-  <p>
-    Camera access is used only when you choose to use the barcode or ISBN scanning feature.
-  </p>
-
-  <p>
-    My Bookshelf does not upload or store photographs or videos captured by the barcode scanner.
-  </p>
-
-  <p>
-    Permissions are used only for the features you choose to use. You can manage app permissions through your device
-    settings.
-  </p>
-
-  <h2>Profile Avatars and Images</h2>
-
-  <p>
-    My Bookshelf may offer preset avatar options for profiles. If custom image upload features are added in the future,
-    this Privacy Policy may be updated to explain how those images are handled.
-  </p>
-
-  <h2>Analytics, Advertising, Crash Reporting, and Tracking</h2>
-
-  <p>
-    My Bookshelf does not currently sell personal information for advertising.
-  </p>
-
-  <p>
-    My Bookshelf may use technical services, including Firebase or Google services, to support authentication,
-    diagnostics, crash reporting, security, app performance, or future analytics where enabled.
-  </p>
-
-  <p>
-    My Bookshelf may include affiliate links to third-party websites or services. Affiliate links may allow 80EZ Studio
-    to earn a commission if you make a qualifying purchase after tapping the link. Affiliate links are not the same as
-    personalised advertising.
-  </p>
-
-  <p>
-    If advertising, personalised ads, crash-reporting tools, or additional analytics services are introduced in the
-    future, this Privacy Policy and the Google Play Data Safety information will be updated where required before those
-    services are used in a released version of the app.
-  </p>
-
-  <h2>Data Sharing</h2>
-
-  <p>
-    80EZ Studio does not sell your personal information.
-  </p>
-
-  <p>
-    We may share or process information with trusted service providers only where reasonably needed to operate My
-    Bookshelf, provide authentication, manage accounts, provide cloud backup or restore, process account deletion,
-    process or verify purchases, provide app features, maintain security, diagnose technical issues, comply with legal
-    obligations, or protect our rights and users.
-  </p>
-
-  <p>These service providers may include:</p>
-
-  <ul>
-    <li>Firebase and Google services</li>
-    <li>Google Play</li>
-    <li>Payment or purchase providers</li>
-    <li>Google Books</li>
-    <li>Open Library</li>
-    <li>Amazon</li>
-    <li>Hosting providers</li>
-    <li>Support tools</li>
-    <li>Other technical providers used to operate the app</li>
-  </ul>
-
-  <p>
-    If you choose to tap an external or affiliate link, you may leave My Bookshelf and interact directly with a
-    third-party website, app, or service. The third party may collect and process information under its own privacy
-    policy. We are not responsible for the privacy practices of third-party websites or services.
-  </p>
-
-  <h2>Data Retention and Deletion</h2>
-
-  <p>
-    Information stored locally on your device remains on your device until you delete it in the app, clear the app's
-    data, or uninstall the app, subject to Android, Google, or device backup settings.
-  </p>
-
-  <p>
-    Cloud-backed information is retained while your account and cloud library remain active, or until you delete
-    specific information or delete your account.
-  </p>
-
-  <p>
-    Information stored or processed through account, cloud, sync, backup, purchase, or service-provider features may be
-    retained for as long as reasonably needed to provide the app, maintain your account, verify purchases, comply with
-    legal obligations, resolve disputes, maintain security, and enforce our terms.
-  </p>
-
-  <p>
-    Successful in-app account deletion normally removes the Firebase Authentication account and associated My Bookshelf
-    cloud-backed data immediately.
-  </p>
-
-  <p>
-    You may delete local app data by deleting information within the app where controls are available, clearing the
-    app's data, or uninstalling the app.
-  </p>
-
-  <p>
-    Local-only data is not deleted as part of cloud-account deletion because it is not associated with the cloud account.
-  </p>
-
-  <p>
-    You can request deletion of your My Bookshelf account and associated account data using this page:
-    <a href="https://80ezstudio.github.io/MyBookshelf/delete-account/">
-      https://80ezstudio.github.io/MyBookshelf/delete-account/
-    </a>
-  </p>
-
-  <p>
-    Firebase, Google, or other service providers may retain limited technical, legal, security, fraud-prevention, or
-    operational records under their own policies or where required by law.
-  </p>
-
-  <h2>Security</h2>
-
-  <p>
-    We use reasonable technical and organisational measures to help protect information. However, no method of
-    transmission, processing, or storage is completely secure, and we cannot guarantee absolute security.
-  </p>
-
-  <p>
-    Information sent to Firebase, Google Books, Open Library, and other online services is transmitted using encrypted
-    network connections where supported by those services.
-  </p>
-
-  <p>
-    You are responsible for keeping your device and account secure, including using your device's screen lock,
-    protecting your login credentials, keeping your operating system updated, and using secure backup settings where
-    appropriate.
-  </p>
-
-  <h2>Children's Privacy</h2>
-
-  <p>
-    My Bookshelf is intended as a general audience app and is not specifically directed to children under 13.
-  </p>
-
-  <p>
-    80EZ Studio does not knowingly collect personal information from children under 13 through My Bookshelf. If you
-    believe a child has provided personal information, please contact us so we can review and take appropriate action.
-  </p>
-
-  <h2>Your Choices</h2>
-
-  <p>
-    You may choose whether to use optional account, login, sync, backup, cloud, paid, or affiliate book discovery
-    features where those features are available.
-  </p>
-
-  <p>
-    You can use My Bookshelf in local-only mode without creating an account.
-  </p>
-
-  <p>
-    You can choose whether to use cloud backup and restore.
-  </p>
-
-  <p>
-    You can choose whether to tap external links or affiliate links. You do not need to tap affiliate links to use the
-    core reading tracker features of My Bookshelf.
-  </p>
-
-  <p>
-    You can delete books, notes, quotes, ratings, and other saved information within the app where those controls are
-    provided.
-  </p>
-
-  <p>
-    You can permanently delete your account through:
-    <strong>Settings &gt; Account &gt; Delete account</strong>.
-  </p>
-
-  <p>
-    You can manage device permissions through your device settings.
-  </p>
-
-  <p>
-    You can stop using My Bookshelf by uninstalling it from your device.
-  </p>
-
-  <p>
-    You can manage subscriptions or purchases through Google Play or the relevant payment provider where applicable.
-  </p>
-
-  <h2>Future Features and Changes</h2>
-
-  <p>
-    My Bookshelf may add, remove, change, limit, suspend, or discontinue features over time. This may include free
-    features, paid features, account features, sync, backup, recommendations, paid access, subscriptions, trials,
-    affiliate links, custom profile images, analytics, advertising, crash reporting, or other services.
-  </p>
-
-  <p>
-    We may also change pricing, subscription options, included features, limits, eligibility, affiliate link availability,
-    or access rules, subject to applicable law and app store rules.
-  </p>
-
-  <p>
-    If future features materially change how we collect, use, store, or share information, this Privacy Policy and
-    relevant Google Play disclosures will be updated where required.
-  </p>
-
-  <h2>Changes to This Privacy Policy</h2>
-
-  <p>
-    We may update this Privacy Policy from time to time. If we make changes, we will update the "Last updated" date at
-    the top of this page.
-  </p>
-
-  <p>
-    Material changes may also be communicated through the app or app listing where appropriate.
-  </p>
-
-  <h2>Contact</h2>
-
-  <p>
-    If you have questions about this Privacy Policy, My Bookshelf, account deletion, or data requests, contact:
-  </p>
-
-  <p>
-    Email:
-    <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>
-  </p>
-
-  <p>
-    Account deletion page:
-    <a href="https://80ezstudio.github.io/MyBookshelf/delete-account/">
-      https://80ezstudio.github.io/MyBookshelf/delete-account/
-    </a>
-  </p>
-
+  <div class="meta">
+    <p><strong>Version:</strong> 2026.07.12</p>
+    <p><strong>Effective date:</strong> 12 July 2026</p>
+    <p><strong>Last updated:</strong> 12 July 2026</p>
+  </div>
+  <p>This Privacy Policy explains how 80EZ Studio collects, uses, stores, shares and protects personal information when you use My Bookshelf.</p>
+  <p>My Bookshelf is a personal reading tracker. It can be used in local-only mode without an account and also provides optional account, cloud, subscription, book-discovery and social features where available.</p>
+  <p>80EZ Studio is responsible for the personal information processed through My Bookshelf. Contact: <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>.</p>
+  <p><strong>Public copy:</strong> <a href="https://80ezstudio.github.io/MyBookshelf/privacy-policy.html">https://80ezstudio.github.io/MyBookshelf/privacy-policy.html</a></p>
+  <p><strong>Terms and Conditions:</strong> <a href="https://80ezstudio.github.io/MyBookshelf/terms-and-conditions.html">https://80ezstudio.github.io/MyBookshelf/terms-and-conditions.html</a></p>
+  <h2 id="1-scope">1. Scope</h2>
+  <p>This policy applies to the My Bookshelf Android app, its account and cloud services, My Bookshelf Pro, social features, support communications, and the related public legal and account-deletion pages.</p>
+  <p>Google Play, Google, Firebase, RevenueCat, Amazon, book-data providers and other third parties may also process information under their own privacy notices.</p>
+  <h2 id="2-age-requirements-and-parental-responsibility">2. Age requirements and parental responsibility</h2>
+  <p>My Bookshelf is a 13+ account service. A person must be at least 13 years old to create an account or use social features.</p>
+  <p>A child under 13 may use the local-only reading tracker only where a parent or guardian controls the device and supervises that use. A child under 13 must not create an account, provide personal information to 80EZ Studio or use social features.</p>
+  <p>My Bookshelf may ask for birth month and birth year to determine an age band. The app is designed to retain the resulting age band rather than a full date of birth.</p>
+  <p>Users aged 13 to 15 may use permitted private reading and account features, but social features are unavailable unless a legally appropriate verified parent or guardian approval process is introduced.</p>
+  <p>Users aged 16 to 17 receive private-by-default settings. Discoverability is off by default, unrestricted stranger messaging is not permitted, and social interaction is limited to closed-network features made available by My Bookshelf.</p>
+  <p>If the law applying to a user requires a higher age or additional parent or guardian authorisation, the stricter requirement applies.</p>
+  <p>Parents and guardians are responsible for deciding whether the app is suitable for a minor, supervising use, protecting the device and account, authorising purchases and teaching the minor not to share personal or sensitive information. My Bookshelf does not replace active parental supervision.</p>
+  <h2 id="3-information-we-process">3. Information we process</h2>
+  <p>Reading and library information, including books, authors, ISBNs, covers, descriptions, page counts, reading status, progress, dates, ratings, favourites, history, goals, notes, quotes and app preferences.</p>
+  <p>Account and profile information, including email address, Firebase user identifier, sign-in provider, authentication status, username, display name, reading biography, preset avatar, visibility settings, age band and records of required Terms or safety acknowledgements.</p>
+  <p>Social information, including friend relationships, requests, invitations, Page Partner participants, shared progress, text messages, reactions and social notifications.</p>
+  <p>Safety information, including blocks, reports, reported content references, evidence snapshots, moderation decisions, warnings, restrictions, suspensions, bans, appeals and audit records.</p>
+  <p>Purchase information, including product and transaction identifiers, purchase history, trial and subscription status, entitlement status, renewal, expiry, refund or cancellation status, and an app user identifier used by RevenueCat.</p>
+  <p>Technical and support information, including app version, device and operating-system information, authentication and security events, error information, service timestamps, technical logs and information you provide when contacting support or making a request.</p>
+  <p>Camera permission may be requested for barcode or ISBN scanning. The scanner is not intended to upload or retain photographs or videos.</p>
+  <p>Do not put an address, school, phone number, personal email address, precise location, financial information, password or other sensitive information in a username, profile, invitation or message.</p>
+  <h2 id="4-local-only-and-cloud-storage">4. Local-only and cloud storage</h2>
+  <p>In local-only mode, reading information is stored on your device and is not associated with a Firebase account by 80EZ Studio. We cannot remotely access, restore or delete information that exists only on your device.</p>
+  <p>You can remove local-only data by deleting it in the app, clearing app storage or uninstalling the app. Android, Google or device backup systems may retain copies according to settings controlled by you and the relevant provider.</p>
+  <p>My Bookshelf uses Firebase Authentication for account access, Firebase Firestore for cloud-backed information and Firebase Cloud Functions for secure server-side operations.</p>
+  <p>Cloud-backed information may include library data, notes, quotes, profile information, social relationships, Page Partner activity, messages, blocks, reports, moderation records and account settings.</p>
+  <p>Cloud storage, synchronisation and restoration are conveniences. You remain responsible for keeping an independent copy of information that is important to you.</p>
+  <h2 id="5-how-and-why-we-use-information">5. How and why we use information</h2>
+  <p>To provide the features you request, operate accounts, store and restore cloud data, manage subscriptions, deliver permitted social features, provide support and process account deletion. The usual lawful basis is performance of our agreement with you.</p>
+  <p>To protect users and the service, apply age and privacy restrictions, enforce blocks, investigate reports, prevent fraud and abuse, moderate content, secure accounts and enforce our Terms. The usual lawful basis is our legitimate interests in safety, security, service integrity and protecting users.</p>
+  <p>To comply with legal obligations, lawful requests, consumer rules, data-protection requirements, online-safety duties, accounting obligations and court or regulatory requirements.</p>
+  <p>In a genuine emergency, to process or disclose limited information where legally permitted and reasonably necessary to protect life or prevent serious harm.</p>
+  <p>Where consent is legally required for a separate optional activity, we will request it separately. Agreeing to this Privacy Policy is not consent to every form of processing.</p>
+  <h2 id="6-social-visibility,-blocking-and-moderation">6. Social visibility, blocking and moderation</h2>
+  <p>Private library information is not made public merely because you create an account.</p>
+  <p>Information is visible to another user only through a feature that permits it and subject to age, privacy, relationship, participation and block controls. This may include a username, display name, preset avatar, reading biography, selected reading activity, invitations, Page Partner messages and reactions.</p>
+  <p>You are responsible for considering what you choose to share. Another user may copy, screenshot or disclose information outside My Bookshelf despite the rules, and 80EZ Studio cannot guarantee another user&#x27;s conduct or identity.</p>
+  <p>Where available, blocking is intended to prevent blocked accounts from finding or viewing one another, sending requests or invitations, sending Page Partner messages and generating related social notifications.</p>
+  <p>Reports may preserve relevant content, account identifiers, evidence snapshots, timestamps, decisions and audit records. We may remove content, restrict social access, suspend or ban accounts, preserve evidence, prevent evasion or make a lawful disclosure where appropriate.</p>
+  <p>We do not promise that every message will be reviewed before delivery or that every harmful interaction will be detected immediately.</p>
+  <h2 id="7-service-providers-and-sharing">7. Service providers and sharing</h2>
+  <p>We do not sell personal information and do not currently use it for personalised advertising.</p>
+  <p>We may share information, or allow it to be processed, only where reasonably necessary with Google Firebase and Google Play for authentication, cloud services, security, app distribution and billing; RevenueCat for purchase verification and subscription access; Google Books, Open Library and The New York Times for book information and recommendations; Amazon when you open an affiliate link; and hosting, email, security, support or moderation providers used to operate the service.</p>
+  <p>We may also disclose limited information to regulators, courts, law-enforcement bodies, emergency services, app stores or other parties where required by law or reasonably and lawfully necessary to protect users, rights or security.</p>
+  <p>Other users receive only the information made available through the feature you choose and subject to applicable access controls.</p>
+  <h2 id="8-affiliate-links-and-external-services">8. Affiliate links and external services</h2>
+  <p>My Bookshelf may contain Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases.</p>
+  <p>Opening an affiliate link may take you to Amazon or another third-party service. That third party is responsible for its accounts, cookies, payments, purchases, delivery, returns and privacy practices.</p>
+  <p>My Bookshelf does not receive your full Amazon payment-card details, Amazon password, delivery address or complete Amazon purchase history.</p>
+  <h2 id="9-international-processing">9. International processing</h2>
+  <p>Some providers may process information outside the United Kingdom. Where a restricted international transfer applies, we rely on an available lawful safeguard, such as UK adequacy regulations, approved contractual safeguards or another permitted transfer mechanism.</p>
+  <h2 id="10-retention-and-deletion">10. Retention and deletion</h2>
+  <p>We retain information only for as long as reasonably necessary for the relevant purpose.</p>
+  <p>Local-only information remains on your device until you remove it, subject to device backups. Active account and cloud information is normally retained while the account remains active and the relevant feature is used.</p>
+  <p>Support, complaint, appeal, purchase and entitlement records are retained as needed to resolve the matter, verify access, prevent fraud and meet legal obligations.</p>
+  <p>Reports, evidence snapshots, blocks, warnings, suspensions, bans and audit records may be retained after content or account deletion where reasonably necessary for safety, abuse prevention, legal obligations, appeals, disputes or legal claims.</p>
+  <p>You can request account deletion in the app at Settings &gt; Account &gt; Delete account or at <a href="https://80ezstudio.github.io/MyBookshelf/delete-account/">https://80ezstudio.github.io/MyBookshelf/delete-account/</a>. You may need to reauthenticate.</p>
+  <p>Successful deletion removes or initiates deletion of the Firebase Authentication account and My Bookshelf cloud information associated with it, subject to limited lawful retention for safety, moderation, evidence, security, fraud prevention, purchase verification, billing disputes, appeals, legal obligations and provider backup cycles.</p>
+  <p>Information stored only in local-only mode must be removed separately from the device. Deleting the app or your My Bookshelf account does not cancel a Google Play subscription.</p>
+  <p>Support-assisted deletion requests are normally completed within 30 days after account ownership has been sufficiently verified.</p>
+  <h2 id="11-your-rights-and-complaints">11. Your rights and complaints</h2>
+  <p>Depending on the law that applies, you may have rights to access personal information, correct inaccurate information, request deletion or restriction, object to certain processing, receive eligible information in a portable format, withdraw consent where processing relies on consent, and request appropriate review of certain automated decisions.</p>
+  <p>These rights are not absolute. Information may be retained where required for safety, security, legal obligations, fraud prevention, the rights of others or legal claims.</p>
+  <p>To make a request, email <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>. We may ask for information reasonably necessary to verify identity, authority and account ownership.</p>
+  <p>You may complain to the UK Information Commissioner&#x27;s Office at <a href="https://ico.org.uk/make-a-complaint/">https://ico.org.uk/make-a-complaint/</a>.</p>
+  <p>We will acknowledge a data-protection complaint within 30 days and respond without undue delay.</p>
+  <h2 id="12-security">12. Security</h2>
+  <p>We use reasonable technical and organisational measures intended to protect information, including authenticated access, backend access controls, encrypted network connections where supported, rate limits, audit records and reauthentication for sensitive actions.</p>
+  <p>No system is completely secure. You are responsible for protecting your device, Google account and My Bookshelf credentials, preventing account sharing, using appropriate device security and promptly reporting suspected unauthorised access.</p>
+  <h2 id="13-changes-and-contact">13. Changes and contact</h2>
+  <p>We may update this policy when the app, providers, data practices or legal requirements change. The version and date will be shown at the top.</p>
+  <p>Material changes will be communicated through the app, public policy page or another appropriate method. Where law requires consent for a new activity, continued use alone will not replace that consent.</p>
+  <p>For privacy questions, data requests, account deletion, safety concerns, complaints or appeals, contact 80EZ Studio at <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a>.</p>
+  <p>Public Privacy Policy: <a href="https://80ezstudio.github.io/MyBookshelf/privacy-policy.html">https://80ezstudio.github.io/MyBookshelf/privacy-policy.html</a></p>
+  <footer>
+    <p>© 2026 80EZ Studio. Contact: <a href="mailto:80ezstudio@gmail.com">80ezstudio@gmail.com</a></p>
+  </footer>
+</main>
 </body>
 </html>
-```

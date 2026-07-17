@@ -1,6 +1,6 @@
 # Every Read public pages
 
-This repository contains the public support and legal pages for the Every Read Android app.
+This repository contains only the public support and legal pages for Every Read. App source, build information, release artifacts, credentials, signing material and internal documentation are maintained separately in a private repository.
 
 ## Published pages
 
@@ -9,12 +9,6 @@ This repository contains the public support and legal pages for the Every Read A
 - `terms-and-conditions.html`
 - `credits.html`
 - `delete-account/index.html`
-
-## App identity
-
-- App name: Every Read
-- Android package ID: `com.eightyezstudio.mybookshelf` (must remain unchanged)
-- Google Play listing: `https://play.google.com/store/apps/details?id=com.eightyezstudio.mybookshelf`
 
 ## Publishing
 

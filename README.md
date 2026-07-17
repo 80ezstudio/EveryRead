@@ -4,6 +4,7 @@ This repository contains the public support and legal pages for the Every Read A
 
 ## Published pages
 
+- `index.html`
 - `privacy-policy.html`
 - `terms-and-conditions.html`
 - `credits.html`

@@ -10,7 +10,7 @@
   <link rel="canonical" href="https://80ezstudio.github.io/EveryRead/">
   <link rel="icon" href="assets/every-read-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/every-read-icon.png">
-  <link rel="stylesheet" href="styles.css?v=20260801-2">
+  <link rel="stylesheet" href="styles.css?v=20260801-3">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Every Read">
@@ -96,15 +96,18 @@
               <div class="app-status"><span>9:41</span><span>● ◒ ▰</span></div>
               <div class="app-heading"><div><small>MY READING</small><strong>Home</strong></div><span class="app-menu">≡</span></div>
               <div class="current-read-card">
-                <div class="current-read-meta"><span>READING NOW</span><strong>64%</strong></div>
+                <div class="current-page"><span>p. <strong>192</strong> / 300</span><span class="progress-edit">✎</span></div>
+                <div class="current-progress-row">
+                  <div class="app-progress"><span></span><i></i></div>
+                  <strong>64%</strong>
+                </div>
                 <div class="current-read-body">
                   <span class="sample-cover cover-coral"></span>
-                  <div><strong>The Quiet Chapter</strong><small>Page 192 of 300</small></div>
+                  <div class="current-book-copy"><strong>The Quiet Chapter</strong><small>Started Jul 24, 2026</small><small class="note-count">▤&nbsp; 2 notes</small></div>
+                  <span class="note-action">▤</span>
                 </div>
-                <div class="app-progress"><span></span></div>
-                <button type="button" tabindex="-1">Update progress</button>
               </div>
-              <div class="app-stats"><div><strong>3</strong><small>Reading</small></div><div><strong>8</strong><small>Finished</small></div><div><strong>14</strong><small>Next</small></div></div>
+              <div class="app-stats"><div><strong>3</strong><small>Reading</small></div><div><strong>14</strong><small>Want to read</small></div><div><strong>8</strong><small>Finished</small></div><div><strong>1</strong><small>Paused</small></div></div>
               <div class="app-shelf-title"><strong>Want to read</strong><span>View all →</span></div>
               <div class="app-books"><span class="sample-cover cover-gold"></span><span class="sample-cover cover-teal"></span><span class="sample-cover cover-ink"></span><span class="sample-cover cover-paper"></span></div>
               <div class="app-nav"><span>⌂</span><span>▥</span><span>✦</span><span>♙</span></div>
@@ -215,9 +218,15 @@
 
     <section class="section privacy-section">
       <div class="shell privacy-grid">
-        <div class="privacy-art" aria-hidden="true">
-          <div class="arch"></div>
-          <img src="assets/every-read-icon.png" alt="" width="512" height="512">
+        <div class="privacy-art" role="img" aria-label="Illustration of a private reading note that only its writer can see">
+          <div class="private-note-sheet" aria-hidden="true">
+            <div class="private-note-label"><span>●</span> PRIVATE NOTE · PAGE 192</div>
+            <span class="private-quote">“</span>
+            <p>A thought worth keeping, close to the book that inspired it.</p>
+            <div class="private-note-options"><span>Note</span><span>Quote</span><span>Quote &amp; note</span></div>
+            <div class="private-note-footer"><span>⌾</span> Only you can see this</div>
+          </div>
+          <div class="privacy-promise" aria-hidden="true"><span>✓</span><div><strong>Yours by default</strong><small>No audience. No pressure.</small></div></div>
         </div>
         <div class="privacy-copy">
           <p class="eyebrow">A personal space</p>
@@ -235,19 +244,42 @@
 
     <section class="section pro-section" id="pro">
       <div class="shell pro-panel">
-        <div class="pro-heading">
-          <p class="eyebrow light">When you want more</p>
-          <h2>Begin with the tracker. Add Pro when it earns its place.</h2>
-          <p>The core book tracker is free. Every Read Pro adds collaboration, community, more goals, themes, and badges.</p>
+        <div class="pro-showcase">
+          <div class="pro-heading">
+            <p class="eyebrow light">Every Read Pro</p>
+            <h2>Add more to every reading journey.</h2>
+            <p>Keep everything you love about your private tracker, then add the people, motivation, and personal touches that make reading even more rewarding.</p>
+            <a class="button button-light" href="https://play.google.com/store/apps/details?id=com.eightyezstudio.mybookshelf&amp;referrer=utm_source%3Deveryread_site%26utm_medium%3Dwebsite%26utm_campaign%3Dofficial_homepage%26utm_content%3Dpro_hero">Get Every Read &amp; explore Pro</a>
+          </div>
+          <div class="community-stage" role="img" aria-label="Illustration of the Every Read Community Activity screen with reader updates and Page Partners">
+            <div class="community-mock" aria-hidden="true">
+              <div class="community-header"><strong>Community</strong><span>≡</span></div>
+              <div class="community-tabs"><strong>Activity</strong><span>Friends</span><span>Following</span><span>Page Partners</span></div>
+              <div class="activity-card">
+                <span class="reader-avatar avatar-coral">M</span>
+                <div class="activity-copy"><div><strong>Maya Reads</strong><small>2 hours ago</small></div><span>finished a book</span><div class="activity-book"><span class="sample-cover cover-gold"></span><div><strong>The Golden Hour</strong><small>Elena Marlow</small></div></div></div>
+              </div>
+              <div class="activity-card">
+                <span class="reader-avatar avatar-teal">J</span>
+                <div class="activity-copy"><div><strong>Jamie</strong><small>yesterday</small></div><span>started reading</span><div class="activity-book"><span class="sample-cover cover-teal"></span><div><strong>A Long Way Home</strong><small>Rowan Ellis</small></div></div></div>
+              </div>
+            </div>
+            <div class="partners-peek" aria-hidden="true">
+              <div><span class="partner-icon">◎</span><strong>Page Partners</strong></div>
+              <p>Read together, share thoughts, and discuss as you go.</p>
+              <div class="partner-readers"><span class="reader-avatar avatar-coral">M</span><span class="reader-avatar avatar-teal">J</span><span class="reader-avatar avatar-gold">A</span><strong>3 reading together</strong></div>
+            </div>
+          </div>
         </div>
         <div class="pro-grid">
-          <article><span class="pro-number">01</span><h3>Page Partners</h3><p>Read a book alongside someone and keep the shared journey close to the book.</p></article>
-          <article><span class="pro-number">02</span><h3>Reader community</h3><p>Choose when you want to connect around books; your private reading record stays separate.</p></article>
-          <article><span class="pro-number">03</span><h3>More ways to make it yours</h3><p>Unlock more goals, themes, and badges that celebrate your reading.</p></article>
+          <article><span class="pro-icon">◎</span><h3>Read together</h3><p>Use Page Partners one-to-one or with up to five friends to share thoughts, discuss the book, and chat as you go.</p></article>
+          <article><span class="pro-icon">●</span><h3>Find your reading people</h3><p>Follow readers, add friends, see what they’re reading, and discover books through people you know.</p></article>
+          <article><span class="pro-icon">↗</span><h3>Keep every goal</h3><p>Create as many active reading goals as you need and keep every target together.</p></article>
+          <article><span class="pro-icon">✦</span><h3>Make it yours</h3><p>Unlock premium themes and the complete badge collection to personalise and celebrate your reading.</p></article>
         </div>
         <div class="pro-cta">
-          <p><strong>Start with the free app.</strong><br>Current Pro options and local pricing are shown inside Every Read.</p>
-          <a class="button button-light" href="https://play.google.com/store/apps/details?id=com.eightyezstudio.mybookshelf&amp;referrer=utm_source%3Deveryread_site%26utm_medium%3Dwebsite%26utm_campaign%3Dofficial_homepage%26utm_content%3Dpro">Explore Every Read</a>
+          <p><strong>Your private reading space stays yours.</strong><br>Pro adds more ways to connect and personalise; current options and local pricing are shown inside Every Read.</p>
+          <a class="text-link pro-link" href="https://play.google.com/store/apps/details?id=com.eightyezstudio.mybookshelf&amp;referrer=utm_source%3Deveryread_site%26utm_medium%3Dwebsite%26utm_campaign%3Dofficial_homepage%26utm_content%3Dpro_footer">See Every Read on Google Play <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>

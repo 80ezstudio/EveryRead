@@ -10,7 +10,7 @@
   <link rel="canonical" href="https://80ezstudio.github.io/EveryRead/">
   <link rel="icon" href="assets/every-read-icon.png" type="image/png">
   <link rel="apple-touch-icon" href="assets/every-read-icon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260801-2">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Every Read">
@@ -90,9 +90,25 @@
         <div class="hero-visual">
           <span class="orbit orbit-one" aria-hidden="true"></span>
           <span class="orbit orbit-two" aria-hidden="true"></span>
-          <div class="phone hero-phone">
+          <div class="phone hero-phone" role="img" aria-label="Illustration of the Every Read app showing a current book, progress, and personal bookshelf">
             <div class="phone-camera" aria-hidden="true"></div>
-            <img src="assets/every-read-home.png" alt="Every Read home screen showing a bookshelf and reading progress" width="920" height="2048">
+            <div class="app-screen" aria-hidden="true">
+              <div class="app-status"><span>9:41</span><span>● ◒ ▰</span></div>
+              <div class="app-heading"><div><small>MY READING</small><strong>Home</strong></div><span class="app-menu">≡</span></div>
+              <div class="current-read-card">
+                <div class="current-read-meta"><span>READING NOW</span><strong>64%</strong></div>
+                <div class="current-read-body">
+                  <span class="sample-cover cover-coral"></span>
+                  <div><strong>The Quiet Chapter</strong><small>Page 192 of 300</small></div>
+                </div>
+                <div class="app-progress"><span></span></div>
+                <button type="button" tabindex="-1">Update progress</button>
+              </div>
+              <div class="app-stats"><div><strong>3</strong><small>Reading</small></div><div><strong>8</strong><small>Finished</small></div><div><strong>14</strong><small>Next</small></div></div>
+              <div class="app-shelf-title"><strong>Want to read</strong><span>View all →</span></div>
+              <div class="app-books"><span class="sample-cover cover-gold"></span><span class="sample-cover cover-teal"></span><span class="sample-cover cover-ink"></span><span class="sample-cover cover-paper"></span></div>
+              <div class="app-nav"><span>⌂</span><span>▥</span><span>✦</span><span>♙</span></div>
+            </div>
           </div>
           <div class="floating-card float-progress"><strong>Progress at a glance</strong><span>Pick up where you left off</span></div>
           <div class="floating-card float-note"><span aria-hidden="true">✦</span><strong>Private notes</strong></div>
@@ -166,15 +182,32 @@
         <div class="journey-grid">
           <article class="journey-step">
             <div class="step-copy"><span>01</span><h3>Add your book</h3><p>Search for a title and place it on the shelf that matches your reading life.</p></div>
-            <div class="phone phone-small"><img src="assets/every-read-home.png" alt="Every Read home screen with reading and want-to-read shelves" loading="lazy" width="920" height="2048"></div>
+            <div class="journey-preview search-preview" aria-label="Illustration of searching for a book in Every Read">
+              <div class="preview-label">SEARCH BOOKS</div>
+              <div class="preview-search"><span>⌕</span><strong>Search by title, author or ISBN</strong></div>
+              <div class="preview-result"><span class="sample-cover cover-gold"></span><div><strong>The Golden Hour</strong><small>A thoughtful new read</small></div><span>＋</span></div>
+              <div class="preview-result muted-result"><span class="sample-cover cover-teal"></span><div><strong>A Long Way Home</strong><small>Save for later</small></div><span>＋</span></div>
+            </div>
           </article>
           <article class="journey-step journey-reverse">
             <div class="step-copy"><span>02</span><h3>Keep your place</h3><p>Update your page and see your progress without turning reading into admin.</p></div>
-            <div class="phone phone-small"><img src="assets/every-read-progress.png" alt="Every Read book details screen with an update progress action" loading="lazy" width="920" height="2048"></div>
+            <div class="journey-preview progress-preview" aria-label="Illustration of updating reading progress in Every Read">
+              <div class="preview-label">CURRENT READ</div>
+              <div class="preview-book"><span class="sample-cover cover-coral"></span><div><strong>The Quiet Chapter</strong><small>Currently reading</small></div></div>
+              <div class="preview-progress-meta"><span>Page 192 of 300</span><strong>64%</strong></div>
+              <div class="preview-progress"><span></span></div>
+              <div class="preview-button">Update progress</div>
+            </div>
           </article>
           <article class="journey-step">
             <div class="step-copy"><span>03</span><h3>Save what mattered</h3><p>Keep a private note, a quote, or both, connected to the book and page.</p></div>
-            <div class="phone phone-small"><img src="assets/every-read-note.png" alt="Every Read private note editor" loading="lazy" width="920" height="2048"></div>
+            <div class="journey-preview note-preview" aria-label="Illustration of saving a private reading note in Every Read">
+              <div class="preview-label">PRIVATE NOTE · PAGE 192</div>
+              <span class="large-quote">“</span>
+              <p>A thought worth keeping, close to the book that inspired it.</p>
+              <div class="note-options"><span>Note</span><span>Quote</span><span>Quote &amp; note</span></div>
+              <div class="preview-button">Save privately</div>
+            </div>
           </article>
         </div>
       </div>
